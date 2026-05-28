@@ -17,13 +17,6 @@
   <a href="https://discord.gg/CV4E9rpNSD">🫨 Discord</a>
 </p>
 
-<p align="center">
-  <a href="#"><img src="https://img.shields.io/static/v1?label=Paper&message=Technical_Report&color=red&logo=arxiv"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Blog-Qwen_VLA-blue"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Demo-Online-orange"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache_2.0-green.svg"></a>
-</p>
-
 </div>
 
 ---
