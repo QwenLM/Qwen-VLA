@@ -2,9 +2,9 @@
 
 <img src="assets/qwen-logo.png" alt="Qwen-VLA" width="150"/>
 
-# Qwen-VLA
+<h1 style="border: none;">Qwen-VLA</h1>
 
-**Unifying Vision-Language-Action Modeling across Tasks, Environments, and Robot Embodiments**
+<p><b>Unifying Vision-Language-Action Modeling across Tasks, Environments, and Robot Embodiments</b></p>
 
 <p align="center">
   <b>Qwen Team</b>
@@ -18,8 +18,6 @@
 </p>
 
 </div>
-
----
 
 Welcome to the official repository of **Qwen-VLA**. Here, you can find official information about Qwen-VLA, post your questions ([Issues](https://github.com/QwenLM/Qwen-VLA/issues)), and share your ideas with the community ([Discussions](https://github.com/QwenLM/Qwen-VLA/discussions)).
 
@@ -37,21 +35,21 @@ Welcome to the official repository of **Qwen-VLA**. Here, you can find official 
 
 <br>
 
-**Qwen-VLA** is a unified vision-language-action generalist model built upon **Qwen3.5-4B** (vision-language backbone) and a **1.15B DiT flow-matching action decoder**. It casts manipulation, navigation, and trajectory prediction into a shared action-and-trajectory prediction framework, enabling a single model to learn from heterogeneous embodied data across tasks, environments, and 10+ robot embodiments via embodiment-aware prompt conditioning &mdash; no per-platform output heads needed.
+**Qwen-VLA** is a unified vision-language-action generalist model built upon **Qwen3.5-4B** (vision-language backbone) and a **1.15B DiT flow-matching action decoder**. It casts manipulation, navigation, and trajectory prediction into a shared action-and-trajectory prediction framework, enabling a unified model to learn from heterogeneous embodied data across tasks, environments, and 10+ robot embodiments via embodiment-aware prompt conditioning, no per-platform output heads needed.
 
-A single Qwen-VLA generalist, trained jointly on all data, **matches or outperforms task-specific specialists** fine-tuned independently per benchmark on 4/5 simulation benchmarks, pushing embodied intelligence from "skill specialists" toward "generalist actors."
+A unified Qwen-VLA generalist **matches or outperforms task-specific specialists** fine-tuned independently per benchmark across multiple simulation and real-world evaluations, pushing embodied intelligence from "skill specialists" toward "generalist actors."
 
 ### ✨ Key Highlights
 
-- **🏆 One Generalist Beats Specialists.** A single model matches or outperforms per-benchmark specialists on 4/5 simulation benchmarks.
+- **🏆 One Generalist Beats Specialists.** A unified model matches or outperforms per-benchmark specialists across multiple simulation and real-world evaluations.
 
 - **🔗 Unified Action-and-Trajectory Framework.** Manipulation, navigation, egocentric action modeling, and trajectory prediction share one action-and-trajectory prediction space.
 
 - **🤖 Embodiment-Aware Prompt Conditioning.** One set of weights serves 10+ platforms; switching embodiments requires only changing a text prompt.
 
-- **📈 Progressive Training Recipe.** A four-stage pipeline &mdash; Text-to-Action DiT Pretraining (T2A), Continued Pretraining (CPT), Supervised Fine-Tuning (SFT), and Reinforcement Learning (RL) &mdash; bridges discrete vision-language tokens and continuous action trajectories. T2A first trains the DiT action decoder as a language-conditioned action decompressor without any visual input, learning structured action priors from text alone; subsequent stages then ground this prior in visual observations and optimize closed-loop task success.
+- **📈 Progressive Training Recipe.** A progressive training recipe that includes large-scale action pretraining, multimodal continued pretraining, supervised fine-tuning, and reinforcement learning, bridging the gap between discrete vision-language tokens and continuous action trajectories, improving both training stability and downstream transfer.
 
-- **🌍 Strong Real-World OOD Generalization.** 83.6% in-domain and 76.9% OOD average success on the ALOHA bimanual platform.
+- **🌍 Strong Real-World OOD Generalization.** Large-scale embodied pretraining enables robust generalization to unseen conditions in real-world deployment, significantly outperforming specialist baselines.
 
 ## 🏆 Benchmarks
 
@@ -64,9 +62,9 @@ As a **unified generalist policy**, Qwen-VLA is trained once on all embodiments 
 | **Qwen-VLA-Base** | 90.8 | 40.4 | 64.3 | 64.3 | 66.4 | 61.7 | 53.8 | 55.1 |
 | **Qwen-VLA-Instruct** | **97.9** | **56.7** | **73.7** | **86.1** | **87.2** | **69.0** | **57.5** | **59.6** |
 
-### Real-World Results (ALOHA)
+### Real-World Results
 
-On the ALOHA bimanual platform, GR00T N1.6 and &pi;<sub>0.5</sub> are **per-task specialist** models fine-tuned independently, while **Qwen-VLA is a single all-in-one generalist** that handles all tasks, embodiments, and modalities within one unified model.
+On the ALOHA bimanual platform, GR00T N1.6 and &pi;<sub>0.5</sub> are **per-task specialist** models fine-tuned independently, while **Qwen-VLA is a unified all-in-one generalist** that handles all tasks, embodiments, and modalities within one unified model.
 
 **In-Domain Performance (Success Rate %)**
 
@@ -88,13 +86,13 @@ On the ALOHA bimanual platform, GR00T N1.6 and &pi;<sub>0.5</sub> are **per-task
 
 ### Out-of-Distribution Generalization
 
-| Model | SimplerEnv-OOD SR (%) | DOMINO SR (%) | DOMINO MS |
+| Model | SimplerEnv-OOD SR (%) | DOMINO SR (%) | DOMINO MS (%) |
 | :--- | :---: | :---: | :---: |
 | **Qwen-VLA-Base** | 25.3 | 21.1 | 37.4 |
 | **Qwen-VLA-Instruct** | **32.0** | **26.6** | **39.5** |
 
 > SimplerEnv-OOD: fine-tuned solely on simple pick-and-place, evaluated on unseen spatial and visual tasks.
-> DOMINO: zero-shot evaluation on dynamic manipulation with moving objects &mdash; no dynamic training data used.
+> DOMINO: zero-shot evaluation on dynamic manipulation with moving objects, no dynamic training data used.
 
 ## 📜 Citation
 
@@ -107,11 +105,6 @@ If you find our work helpful, feel free to give us a cite.
   year={2025}
 }
 ```
-
-## License Agreement
-
-All our open-weight models are licensed under Apache 2.0.
-You can find the license files in the respective model repositories.
 
 ## Contact Us
 
