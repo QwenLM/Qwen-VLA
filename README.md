@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/qwen-logo.png" alt="Qwen-VLA" width="150"/>
+<img src="assets/qwen-logo.png" alt="Qwen-VLA" width="260"/>
 
 <h1 style="border: none;">Qwen-VLA</h1>
 
