@@ -11,11 +11,11 @@
 </p>
 
 <p align="center">
-  <a href="#">📑 Paper</a> |
-  <a href="#">📖 Blog</a> |
-  <a href="#">🖥️ Demo</a> |
-  <a href="https://discord.gg/CV4E9rpNSD">🫨 Discord</a>
+  <a href="#"><img src="https://img.shields.io/badge/📑-Paper-red"></a> &nbsp;
+  <a href="#"><img src="https://img.shields.io/badge/📖-Blog-blue"></a> &nbsp;
+  <a href="#"><img src="https://img.shields.io/badge/🖥️-Demo-orange"></a>
 </p>
+
 
 </div>
 
@@ -105,3 +105,4 @@ If you find our work helpful, feel free to give us a cite.
   year={2025}
 }
 ```
+
