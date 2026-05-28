@@ -39,7 +39,7 @@ Welcome to the official repository of **Qwen-VLA**. Here, you can find official 
 ## 💡 Introduction
 
 <div align="center">
-  <img src="assets/qwenvla_overview_final.png" alt="Qwen-VLA Overview" width="90%"/>
+  <img src="assets/qwenvla_overview.png" alt="Qwen-VLA Overview" width="90%"/>
 </div>
 
 <br>
