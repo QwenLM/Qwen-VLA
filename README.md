@@ -11,9 +11,9 @@
 </p>
 
 <p align="center">
-  <a href="#"><img src="https://img.shields.io/badge/📑-Paper-red"></a> &nbsp;
-  <a href="#"><img src="https://img.shields.io/badge/📖-Blog-blue"></a> &nbsp;
-  <a href="#"><img src="https://img.shields.io/badge/🖥️-Demo-orange"></a>
+    <a href="https://github.com/QwenLM/Qwen-VLA">📑 Paper</a> |
+    <a href="https://github.com/QwenLM/Qwen-VLA">📖 Blog</a> |
+    <a href="https://github.com/QwenLM/Qwen-VLA">🖥️ Demo</a>
 </p>
 
 
