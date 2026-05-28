@@ -47,7 +47,7 @@ A unified Qwen-VLA generalist **matches or outperforms task-specific specialists
 
 - **🤖 Embodiment-Aware Prompt Conditioning.** One set of weights serves 10+ platforms; switching embodiments requires only changing a text prompt.
 
-- **📈 Progressive Training Recipe.** A progressive training recipe that includes large-scale action pretraining, multimodal continued pretraining, supervised fine-tuning, and reinforcement learning, bridging the gap between discrete vision-language tokens and continuous action trajectories, improving both training stability and downstream transfer.
+- **📈 Progressive Training Recipe.** A progressive training recipe that includes large-scale action pretraining, multimodal continued pretraining, supervised fine-tuning, and reinforcement learning, bridging the gap between discrete vision-language tokens and continuous action trajectories.
 
 - **🌍 Strong Real-World OOD Generalization.** Large-scale embodied pretraining enables robust generalization to unseen conditions in real-world deployment, significantly outperforming specialist baselines.
 
