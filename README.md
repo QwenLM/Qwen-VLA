@@ -19,7 +19,7 @@
 
 </div>
 
-Welcome to the official repository of **Qwen-VLA**. Here, you can find official information about Qwen-VLA, post your questions ([Issues](https://github.com/QwenLM/Qwen-VLA/issues)), and share your ideas with the community ([Discussions](https://github.com/QwenLM/Qwen-VLA/discussions)).
+Welcome to the official repository of **Qwen-VLA**. Here, you can find official information about Qwen-VLA and post your questions ([Issues](https://github.com/QwenLM/Qwen-VLA/issues)).
 
 ## 🎬 Demo
 
@@ -105,7 +105,3 @@ If you find our work helpful, feel free to give us a cite.
   year={2025}
 }
 ```
-
-## Contact Us
-
-If you are interested in leaving a message to either our research team or product team, join our [Discord](https://discord.gg/CV4E9rpNSD)!
