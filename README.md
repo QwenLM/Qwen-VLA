@@ -62,6 +62,17 @@ As a **unified generalist policy**, Qwen-VLA is trained once on all embodiments 
 | **Qwen-VLA-Base** | 90.8 | 40.4 | 64.3 | 64.3 | 66.4 | 61.7 | 53.8 | 55.1 |
 | **Qwen-VLA-Instruct** | **97.9** | **56.7** | **73.7** | **86.1** | **87.2** | **69.0** | **57.5** | **59.6** |
 
+
+**Out-of-Distribution Generalization**
+
+| Model | SimplerEnv-OOD SR (%) | DOMINO SR (%) | DOMINO MS (%) |
+| :--- | :---: | :---: | :---: |
+| **Qwen-VLA-Base** | 25.3 | 21.1 | 37.4 |
+| **Qwen-VLA-Instruct** | **32.0** | **26.6** | **39.5** |
+
+> SimplerEnv-OOD: fine-tuned solely on simple pick-and-place, evaluated on unseen spatial and visual tasks.
+> DOMINO: zero-shot evaluation on dynamic manipulation with moving objects, no dynamic training data used.
+
 ### Real-World Results
 
 On the ALOHA bimanual platform, GR00T N1.6 and &pi;<sub>0.5</sub> are **per-task specialist** models fine-tuned independently, while **Qwen-VLA is a unified all-in-one generalist** that handles all tasks, embodiments, and modalities within one unified model.
@@ -84,15 +95,7 @@ On the ALOHA bimanual platform, GR00T N1.6 and &pi;<sub>0.5</sub> are **per-task
 | Qwen-VLA-aloha (w/o pretrain) | 42.3 | 30.8 | 34.6 | 30.8 | 42.3 | 36.2 |
 | **Qwen-VLA-aloha (w/ pretrain)** | **88.5** | **76.9** | **53.8** | **80.8** | **84.6** | **76.9** |
 
-### Out-of-Distribution Generalization
 
-| Model | SimplerEnv-OOD SR (%) | DOMINO SR (%) | DOMINO MS (%) |
-| :--- | :---: | :---: | :---: |
-| **Qwen-VLA-Base** | 25.3 | 21.1 | 37.4 |
-| **Qwen-VLA-Instruct** | **32.0** | **26.6** | **39.5** |
-
-> SimplerEnv-OOD: fine-tuned solely on simple pick-and-place, evaluated on unseen spatial and visual tasks.
-> DOMINO: zero-shot evaluation on dynamic manipulation with moving objects, no dynamic training data used.
 
 ## 📜 Citation
 
