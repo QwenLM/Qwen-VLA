@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-    <a href="https://github.com/QwenLM/Qwen-VLA">📑 Paper</a> |
+    <a href="https://github.com/QwenLM/Qwen-VLA">📑 Technical Report</a> |
     <a href="https://github.com/QwenLM/Qwen-VLA">📖 Blog</a> |
     <a href="https://github.com/QwenLM/Qwen-VLA">🖥️ Demo</a>
 </p>
