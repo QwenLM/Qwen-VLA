@@ -12,7 +12,8 @@
 
 <p align="center">
     <a href="https://arxiv.org/abs/2605.30280">📑 Technical Report</a> |
-    <a href="https://qwen.ai/blog?id=qwenvla">📖 Blog</a>
+    <a href="https://qwen.ai/blog?id=qwenvla">📖 Blog</a> |
+    <a href="https://qianwen-res.oss-accelerate.aliyuncs.com/Qwen-VLA/demo.mp4">🖥️ Demo</a>
 </p>
 
 
