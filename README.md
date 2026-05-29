@@ -26,7 +26,7 @@ Welcome to the official repository of **Qwen-VLA**. Here, you can find official 
 
 
 <div align="center">
-  <video src="https://github.com/user-attachments/assets/3b8004bd-6323-4c36-b601-218714a3e6bb" width="100%" controls></video>
+  <video src="https://github.com/user-attachments/assets/7521d371-a1d5-4743-928d-aa3b5ce7374e" width="100%" controls></video>
 </div>
 
 
