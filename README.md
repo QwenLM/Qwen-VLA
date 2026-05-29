@@ -34,7 +34,7 @@ Welcome to the official repository of **Qwen-VLA**. Here, you can find official 
 
 <br>
 
-**Qwen-VLA** is a unified vision-language-action generalist model built upon **Qwen3.5-4B** (vision-language backbone) and a **1.15B DiT flow-matching action decoder**. It casts manipulation, navigation, and trajectory prediction into a shared action-and-trajectory prediction framework, enabling a unified model to learn from heterogeneous embodied data across tasks, environments, and 10+ robot embodiments via embodiment-aware prompt conditioning, no per-platform output heads needed.
+**Qwen-VLA** is a unified vision-language-action generalist model built upon **Qwen3.5-4B** (vision-language backbone) and a **1.15B DiT flow-matching action decoder**. It casts manipulation, navigation, and trajectory prediction into a shared action-and-trajectory prediction framework, enabling a unified model to learn from heterogeneous embodied data across tasks, environments, and robot embodiments via embodiment-aware prompt conditioning, no per-platform output heads needed.
 
 A unified Qwen-VLA generalist **matches or outperforms task-specific specialists** fine-tuned independently per benchmark across multiple simulation and real-world evaluations, pushing embodied intelligence from "skill specialists" toward "generalist actors."
 
@@ -44,7 +44,7 @@ A unified Qwen-VLA generalist **matches or outperforms task-specific specialists
 
 - **🔗 Unified Action-and-Trajectory Framework.** Manipulation, navigation, egocentric action modeling, and trajectory prediction share one action-and-trajectory prediction space.
 
-- **🤖 Embodiment-Aware Prompt Conditioning.** One set of weights serves 10+ platforms; switching embodiments requires only changing a text prompt.
+- **🤖 Embodiment-Aware Prompt Conditioning.** One set of weights serves multiple platforms; switching embodiments requires only changing a text prompt.
 
 - **📈 Progressive Training Recipe.** A progressive training recipe that includes large-scale action pretraining, multimodal continued pretraining, supervised fine-tuning, and reinforcement learning, bridging the gap between discrete vision-language tokens and continuous action trajectories.
 
