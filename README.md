@@ -101,7 +101,7 @@ On the ALOHA bimanual platform, GR00T N1.6 and &pi;<sub>0.5</sub> are **per-task
 If you find our work helpful, feel free to give us a cite.
 
 ```bibtex
-@misc{wang2026qwenvlaunifyingvisionlanguageactionmodeling,
+@misc{qwenvla,
       title={Qwen-VLA: Unifying Vision-Language-Action Modeling across Tasks, Environments, and Robot Embodiments}, 
       author={Qiuyue Wang and Mingsheng Li and Jian Guan and Jinhui Ye and Sicheng Xie and Yitao Liu and Junhao Chen and Zhixuan Liang and Jie Zhang and Xintong Hu and Xuhong Huang and Pei Lin and Junyang Lin and Dayiheng Liu and Shuai Bai and Jingren Zhou and Jiazhao Zhang and Haoqi Yuan and Gengze Zhou and Hang Yin and Ye Wang and Yiyang Huang and Zixing Lei and Wujian Peng and Delin Chen and Yingming Zheng and Jingyang Fan and Xianwei Zhuang and Xin Zhou and Haoyang Li and Anzhe Chen and Tong Zhang and Xuejing Liu and Yuchong Sun and Ruizhe Chen and Zhaohai Li and Chenxu Lü and Zhibo Yang and Tao Yu and Xionghui Chen},
       year={2026},
