@@ -25,7 +25,7 @@ Welcome to the official repository of **Qwen-VLA**. Here, you can find official 
 ## 🎬 Demo
 
 <div align="center">
-  <video src="assets/demo.mp4" width="90%" controls></video>
+  <video src="assets/demo_95m.mp4" width="90%" controls></video>
 </div>
 
 
