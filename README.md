@@ -11,9 +11,8 @@
 </p>
 
 <p align="center">
-    <a href="https://github.com/QwenLM/Qwen-VLA">📑 Technical Report</a> |
-    <a href="https://github.com/QwenLM/Qwen-VLA">📖 Blog</a> |
-    <a href="https://github.com/QwenLM/Qwen-VLA">🖥️ Demo</a>
+    <a href="https://arxiv.org/abs/2605.30280">📑 Technical Report</a> |
+    <a href="https://qwen.ai/blog?id=qwenvla">📖 Blog</a>
 </p>
 
 
@@ -102,10 +101,14 @@ On the ALOHA bimanual platform, GR00T N1.6 and &pi;<sub>0.5</sub> are **per-task
 If you find our work helpful, feel free to give us a cite.
 
 ```bibtex
-@article{qwenvla,
-  title={Qwen-VLA: Unifying Vision-Language-Action Modeling across Tasks, Environments, and Robot Embodiments},
-  author={Qwen Team},
-  year={2025}
+@misc{wang2026qwenvlaunifyingvisionlanguageactionmodeling,
+      title={Qwen-VLA: Unifying Vision-Language-Action Modeling across Tasks, Environments, and Robot Embodiments}, 
+      author={Qiuyue Wang and Mingsheng Li and Jian Guan and Jinhui Ye and Sicheng Xie and Yitao Liu and Junhao Chen and Zhixuan Liang and Jie Zhang and Xintong Hu and Xuhong Huang and Pei Lin and Junyang Lin and Dayiheng Liu and Shuai Bai and Jingren Zhou and Jiazhao Zhang and Haoqi Yuan and Gengze Zhou and Hang Yin and Ye Wang and Yiyang Huang and Zixing Lei and Wujian Peng and Delin Chen and Yingming Zheng and Jingyang Fan and Xianwei Zhuang and Xin Zhou and Haoyang Li and Anzhe Chen and Tong Zhang and Xuejing Liu and Yuchong Sun and Ruizhe Chen and Zhaohai Li and Chenxu Lü and Zhibo Yang and Tao Yu and Xionghui Chen},
+      year={2026},
+      eprint={2605.30280},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2605.30280}, 
 }
 ```
 
