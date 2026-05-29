@@ -20,11 +20,6 @@
 
 Welcome to the official repository of **Qwen-VLA**. Here, you can find official information about Qwen-VLA and post your questions ([Issues](https://github.com/QwenLM/Qwen-VLA/issues)).
 
-## 🎬 Demo
-
-<div align="center">
-  <video src="assets/normal_video.mp4" width="100%" controls></video>
-</div>
 
 ## 💡 Introduction
 
